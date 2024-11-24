@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <math.h>
-//不是我自己写得！！自己写得在下面，但是是错的，也不知道为啥
+//不是我自己写得！！自己写得在下面，但是是错的，也不知道为啥？
 // 判断是否为素数
 int is_prime(int x) {
     if (x < 2) return 0; // 非素数
