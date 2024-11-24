@@ -72,7 +72,7 @@ int main() {
     return 0;
 }
 //自己写得在这
-
+//也可以运行，并且能输出结果，但不知道为啥总给判WA
 #include<stdio.h>
 #include<string.h>
 #include<math.h>
