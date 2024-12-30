@@ -1,0 +1,10 @@
+#include<stdio.h>
+
+int main(){
+    int a,b;
+    scanf("%d%d",&a,&b);
+    int num=(a&b)+(a^b)/2;
+    printf("%d\n",num);
+    return 0;
+}
+//(a&b)表示取二者都相同的部分，(a^b)表示取二者只有不同的地方再除以2
